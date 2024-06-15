@@ -2,9 +2,9 @@ import React, { Suspense, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { Canvas } from '@react-three/fiber';
 import Fox from '../models/Fox'
-import { Loader } from '@react-three/drei';
 import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
+import Loader from '../components/Loader';
 
 export const Contact = () => {
   const formRef = useRef(null);
@@ -56,7 +56,7 @@ export const Contact = () => {
   const handleFocus = () => setCurrentAnimation('walk');
 
   return (
-    <section className='relative flex lg:flex-row flex-col max-container'>
+    <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
       {alert.show && <Alert {...alert}/>}
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
