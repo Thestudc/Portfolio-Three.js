@@ -26,6 +26,16 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import figma from './figma-icon.svg'
+import jquery from './jquery-6.svg'
+import csharp from './Logo_C_sharp.svg'
+import netframework from './netframework-1.svg'
+import nercore from './dot-net-core-7.svg'
+import c from './c.svg'
+import bootstrap from './bootstrap-5-1.svg'
+import umbraco from './umbraco_logo_blue.svg'
+import wordpress from './wordpress-icon-1.svg'
+import threejs from './threejs-1.svg'
 
 export {
     css,
@@ -55,5 +65,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    figma,
+    jquery,
+    csharp,
+    netframework,
+    nercore,
+    c,
+    bootstrap,
+    umbraco,
+    wordpress,
+    threejs
 }
